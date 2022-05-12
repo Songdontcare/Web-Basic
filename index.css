@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.taskbar{
+    border: solid 15px black;
+    color: rgb(147, 87, 202,0.8);
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(147, 87, 202,0.8);
+}
