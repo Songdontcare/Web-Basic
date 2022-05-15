@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+:root {
+  --red: #D54741;
+  --orange: #FFB871;
+  --yellow: #FEDD7A;
+  --black: #042123;
+  --green: #009CA4;
+  --blue: #99DCE3;
+  --font3: 'Comic Neue', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font3);
+}
+
+body{
+    background-color: var(--orange);
+}
+
+
+.taskbar{
+    background-color: var(--black);
+    font-size: 25px;
+    display: flex;
+    vertical-align: middle;
+}
+
+.taskbarchild{
+    color: var(--orange);
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 40px;
+    font-weight: bolder;
+}
+
+.passwordtester{
+    padding-left: 150px;
+    padding-right: 750px;
+}
+
+.hero{
+    font: var(--font3);
+    font-size: 25px;
+}
+
+.headline{
+    padding-top: 3cm;
+    text-align: center;
+    font-size: 75px;
+    line-height: 3cm;
+    -webkit-text-fill-color: var(--orange); 
+    -webkit-text-stroke-width: 3.5px;
+    -webkit-text-stroke-color: var(--red);
+}
+
+.box{
+    background-color: var(--red);
+    width:600px;
+	height:250px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.box p{
+    margin: auto;
+    padding-top:0.2cm;
+    padding-left: 0.5cm;
+    font-weight: 900;
+}
+
+.button{
+    font-size: 30px;
+    text-align: center;
+    background: var(--black);
+    color: var(--blue);
+    border-radius: 25px;
+    padding: 0.3em 4.5em;
+    border: 11px solid var(--blue);
+    position: relative;
+    margin-left: 35px;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+a:hover {
+    color: var(--black);
+}
+a{
+    text-decoration: none;
+}
+.passwordtester1{
+    -webkit-text-fill-color: var(--black); 
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: var(--red);
+}
+
+.link{
+    color: var(--orange);
+}
+
+.button1{
+    color:var(--blue);
+}
